@@ -1,0 +1,79 @@
+/* * {
+    border: 1px solid red;
+} */
+
+
+
+.top-nav {
+    position: relative;
+    background: white;
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: 1 px solid slategrey;
+    min-width: 100%;
+    justify-content: space-between;
+    
+}
+
+.logo {
+    flex: 2;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 40px;
+}
+
+
+
+.nav-features {
+    flex: 1;
+    flex-wrap: wrap;
+    font-size: 30px;
+    word-spacing: 2em;
+    text-align: right;
+}
+
+.nav-features > li {
+    align-items: stretch;
+    text-align: right;
+    
+}
+
+ul li {
+    list-style: none;
+    display: inline;
+}
+
+.main-section {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.header-photo {
+    min-width: 100%;
+    display: flex;
+}
+
+.header-photo-img {
+   min-width: 100%;
+}
+
+.products {
+    min-width: 100%;
+    margin-top: 2em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    position: relative;
+}
+
+.samsung-product-divs {
+    flex: 33%;
+    padding: 1em;
+}
+
+[class^="samsung"] {
+    width: 100%;
+    height: 100;
+    border-radius: 2em;
+}
